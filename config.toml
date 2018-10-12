@@ -1,4 +1,8 @@
 baseURL = "http://blog.jonstodle.com/"
 languageCode = "en-us"
 title = "Jon Grythe Stødle"
-theme = "Basics"
+theme = "basics"
+
+[params]
+    author = "Jon Grythe Stødle"
+    github = "jonstodle"
