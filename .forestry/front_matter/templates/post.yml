@@ -14,11 +14,3 @@ fields:
 - type: tag_list
   label: Tags
   name: tags
-- type: textarea
-  name: body
-  label: Body
-  config:
-    required: true
-    wysiwyg: true
-    schema:
-      format: markdown
