@@ -3,8 +3,5 @@ languageCode = "en-us"
 title = "Code & Sundry"
 theme = "basics"
 
-[params]
-    github = "jonstodle"
-
 [permalinks]
     post = "/:slug/"
