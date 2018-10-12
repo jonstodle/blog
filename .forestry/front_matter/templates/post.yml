@@ -14,3 +14,5 @@ fields:
 - type: tag_list
   label: Tags
   name: tags
+pages:
+- content/post/will-the-pdk-clean-up-android.md
