@@ -1,6 +1,6 @@
 baseURL = "http://blog.jonstodle.com/"
 languageCode = "en-us"
-title = "Jon Grythe Stødle"
+title = "Code & Sundry"
 theme = "basics"
 
 [params]
