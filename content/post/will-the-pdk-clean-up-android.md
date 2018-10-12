@@ -1,6 +1,5 @@
 +++
 date = "2012-06-03T12:00:52+02:00"
-draft = true
 tags = ["Android"]
 title = "Will the PDK Clean Up Android"
 
