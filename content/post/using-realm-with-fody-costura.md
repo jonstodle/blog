@@ -1,5 +1,5 @@
 +++
-date = "03/10/2017 11:00:00 +00:00"
+date = "2017-03-10T11:00:00.0000000+00:00"
 tags = ["Realm"]
 title = "Using Realm with Fody.Costura"
 +++

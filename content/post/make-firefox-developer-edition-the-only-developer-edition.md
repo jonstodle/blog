@@ -1,5 +1,5 @@
 +++
-date = "01/04/2018 11:00:00 +00:00"
+date = "2018-01-04T11:00:00.0000000+00:00"
 tags = ["Commentary"]
 title = "Make Firefox Developer Edition the only developer edition"
 +++

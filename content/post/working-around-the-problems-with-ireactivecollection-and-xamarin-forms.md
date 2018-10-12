@@ -1,5 +1,5 @@
 +++
-date = "02/28/2017 11:00:00 +00:00"
+date = "2017-02-28T11:00:00.0000000+00:00"
 tags = ["Xamarin","Xamarin Forms"]
 title = "Working around the problems with IReactiveCollection and Xamarin.Forms"
 +++

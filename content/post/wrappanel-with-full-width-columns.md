@@ -1,5 +1,5 @@
 +++
-date = "10/28/2015 11:00:00 +00:00"
+date = "2015-10-28T11:00:00.0000000+00:00"
 tags = ["WPF","UWP"]
 title = "WrapPanel with full width columns"
 +++

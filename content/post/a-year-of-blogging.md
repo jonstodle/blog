@@ -1,5 +1,5 @@
 +++
-date = "03/01/2018 11:00:00 +00:00"
+date = "2018-03-01T11:00:00.0000000+00:00"
 tags = ["Commentary"]
 title = "A year of blogging"
 +++

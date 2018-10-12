@@ -1,5 +1,5 @@
 +++
-date = "06/28/2016 10:00:00 +00:00"
+date = "2016-06-28T10:00:00.0000000+00:00"
 tags = ["UWP"]
 title = "Files uploaded with Device Portal gives “Access denied” at runtime"
 +++

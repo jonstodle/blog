@@ -1,5 +1,5 @@
 +++
-date = "02/24/2018 11:00:00 +00:00"
+date = "2018-02-24T11:00:00.0000000+00:00"
 tags = ["Commentary","Twitter","Tweetbot"]
 title = "Switching to the official Twitter app - sorry Tweetbot"
 +++

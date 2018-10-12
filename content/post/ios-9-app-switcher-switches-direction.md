@@ -1,5 +1,5 @@
 +++
-date = "09/17/2015 10:00:00 +00:00"
+date = "2015-09-17T10:00:00.0000000+00:00"
 tags = ["Windows 10 Mobile","iOS"]
 title = "iOS 9 app switcher switches direction"
 +++

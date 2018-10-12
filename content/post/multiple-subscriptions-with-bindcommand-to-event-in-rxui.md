@@ -1,5 +1,5 @@
 +++
-date = "09/16/2017 10:00:00 +00:00"
+date = "2017-09-16T10:00:00.0000000+00:00"
 tags = ["ReactiveUI","C#"]
 title = "Watch out for multiple subscriptions with BindCommand to event in RxUI"
 +++

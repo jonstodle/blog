@@ -1,5 +1,5 @@
 +++
-date = "11/15/2017 11:00:00 +00:00"
+date = "2017-11-15T11:00:00.0000000+00:00"
 tags = ["Reactive Extensions","RxJS","Solve For Rx"]
 title = "Solve for Rx: Activity indicator with minimum display time"
 +++

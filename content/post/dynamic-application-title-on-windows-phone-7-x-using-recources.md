@@ -1,5 +1,5 @@
 +++
-date = "08/23/2012 10:00:00 +00:00"
+date = "2012-08-23T10:00:00.0000000+00:00"
 tags = ["Windows Phone"]
 title = "Dynamic application title on Windows Phone 7.x using recources"
 +++

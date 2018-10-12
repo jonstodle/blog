@@ -1,5 +1,5 @@
 +++
-date = "01/06/2017 11:00:00 +00:00"
+date = "2017-01-06T11:00:00.0000000+00:00"
 tags = ["Windows 10 Mobile","Tip"]
 title = "Setting the lock screen date format on Windows 10"
 +++

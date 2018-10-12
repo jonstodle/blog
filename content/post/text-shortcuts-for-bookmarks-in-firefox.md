@@ -1,5 +1,5 @@
 +++
-date = "06/22/2018 21:55:12 +00:00"
+date = "2018-06-22T21:55:12.0000000+00:00"
 tags = ["Tip","Firefox"]
 title = "Text shortcuts for bookmarks in Firefox"
 +++

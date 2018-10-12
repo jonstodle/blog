@@ -1,5 +1,5 @@
 +++
-date = "12/05/2016 11:00:00 +00:00"
+date = "2016-12-05T11:00:00.0000000+00:00"
 tags = ["WPF","UWP"]
 title = "FlexPanel: A Flexible version of StackPanel"
 +++

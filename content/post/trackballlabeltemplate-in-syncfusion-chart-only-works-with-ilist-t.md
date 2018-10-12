@@ -1,5 +1,5 @@
 +++
-date = "08/07/2017 10:00:00 +00:00"
+date = "2017-08-07T10:00:00.0000000+00:00"
 tags = ["Xamarin Forms","Syncfusion"]
 title = "TrackballLabelTemplate in Syncfusion chart only works with a list"
 +++

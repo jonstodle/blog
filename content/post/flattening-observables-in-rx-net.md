@@ -1,5 +1,5 @@
 +++
-date = "10/26/2017 10:00:00 +00:00"
+date = "2017-10-26T10:00:00.0000000+00:00"
 tags = ["Reactive Extensions"]
 title = "Flattening observables in Rx.NET"
 +++

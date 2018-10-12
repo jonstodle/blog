@@ -1,5 +1,5 @@
 +++
-date = "09/08/2016 10:00:00 +00:00"
+date = "2016-09-08T10:00:00.0000000+00:00"
 tags = ["C#"]
 title = "Private fields with underscore prefixes, or not?"
 +++

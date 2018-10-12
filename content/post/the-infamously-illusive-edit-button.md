@@ -1,5 +1,5 @@
 +++
-date = "06/28/2017 10:00:00 +00:00"
+date = "2017-06-28T10:00:00.0000000+00:00"
 tags = ["Commentary"]
 title = "The infamously illusive edit button"
 +++

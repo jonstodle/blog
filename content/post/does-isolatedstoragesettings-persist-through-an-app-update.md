@@ -1,5 +1,5 @@
 +++
-date = "07/13/2012 10:00:00 +00:00"
+date = "2012-07-13T10:00:00.0000000+00:00"
 tags = ["Windows Phone"]
 title = "Does IsolatedStorageSettings persist through an app update?"
 +++

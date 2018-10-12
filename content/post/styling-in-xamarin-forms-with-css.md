@@ -1,5 +1,5 @@
 +++
-date = "12/25/2017 11:00:00 +00:00"
+date = "2017-12-25T11:00:00.0000000+00:00"
 tags = ["Xamarin Forms","CSS"]
 title = "Styling in Xamarin.Forms with CSS"
 +++

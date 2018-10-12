@@ -1,5 +1,5 @@
 +++
-date = "08/31/2016 10:00:00 +00:00"
+date = "2016-08-31T10:00:00.0000000+00:00"
 tags = ["iOS"]
 title = "I’ve switched to an iPhone, and it’s all very good"
 +++

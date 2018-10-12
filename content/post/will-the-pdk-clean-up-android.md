@@ -1,5 +1,5 @@
 +++
-date = "06/03/2012 10:00:00 +00:00"
+date = "2012-06-03T10:00:00.0000000+00:00"
 tags = ["Android"]
 title = "Will the PDK clean up Android?"
 +++

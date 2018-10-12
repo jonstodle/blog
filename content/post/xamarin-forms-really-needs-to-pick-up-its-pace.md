@@ -1,5 +1,5 @@
 +++
-date = "03/15/2018 11:00:00 +00:00"
+date = "2018-03-15T11:00:00.0000000+00:00"
 tags = ["Xamarin Forms","Xamarin","Commentary"]
 title = "Xamarin.Forms really needs to pick up it's pace"
 +++

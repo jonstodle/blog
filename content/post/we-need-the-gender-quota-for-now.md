@@ -1,5 +1,5 @@
 +++
-date = "03/30/2018 10:47:00 +00:00"
+date = "2018-03-30T10:47:00.0000000+00:00"
 tags = ["Commentary"]
 title = "We need the gender quota - for now"
 +++

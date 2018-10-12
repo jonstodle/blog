@@ -1,5 +1,5 @@
 +++
-date = "04/29/2017 10:00:00 +00:00"
+date = "2017-04-29T10:00:00.0000000+00:00"
 tags = ["Reactive Extensions"]
 title = "Don’t do extra work, use Publish()"
 +++

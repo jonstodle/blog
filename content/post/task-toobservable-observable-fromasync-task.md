@@ -1,5 +1,5 @@
 +++
-date = "05/29/2017 10:00:00 +00:00"
+date = "2017-05-29T10:00:00.0000000+00:00"
 tags = ["Reactive Extensions"]
 title = "Task.ToObservable() != Observable.FromAsync(() => Task)"
 +++

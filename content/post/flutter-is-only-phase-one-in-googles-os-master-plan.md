@@ -1,5 +1,5 @@
 +++
-date = "04/01/2018 10:00:00 +00:00"
+date = "2018-04-01T10:00:00.0000000+00:00"
 tags = ["Commentary","Google","Flutter","Fuchsia"]
 title = "Flutter is only phase one in Google's OS master plan"
 +++

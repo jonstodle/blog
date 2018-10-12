@@ -1,5 +1,5 @@
 +++
-date = "01/14/2018 11:00:00 +00:00"
+date = "2018-01-14T11:00:00.0000000+00:00"
 tags = ["Reactive Extensions","Solve For Rx","RxJS"]
 title = "Solve for RxJS: Showing messages in sequence"
 +++

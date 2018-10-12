@@ -1,5 +1,5 @@
 +++
-date = "02/13/2018 11:00:00 +00:00"
+date = "2018-02-13T11:00:00.0000000+00:00"
 tags = ["Commentary","Swift","PHP","Dart","Python"]
 title = "Learn a new programming language"
 +++

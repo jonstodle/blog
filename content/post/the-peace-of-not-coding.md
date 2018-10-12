@@ -1,5 +1,5 @@
 +++
-date = "02/17/2017 11:00:00 +00:00"
+date = "2017-02-17T11:00:00.0000000+00:00"
 tags = ["Commentary"]
 title = "The peace of not coding"
 +++

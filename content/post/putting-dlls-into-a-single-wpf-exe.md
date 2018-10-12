@@ -1,5 +1,5 @@
 +++
-date = "11/28/2016 11:00:00 +00:00"
+date = "2016-11-28T11:00:00.0000000+00:00"
 tags = ["WPF"]
 title = "Putting DLLs Into a Single WPF Exe"
 +++

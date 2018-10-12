@@ -1,5 +1,5 @@
 +++
-date = "04/15/2018 10:00:00 +00:00"
+date = "2018-04-15T10:00:00.0000000+00:00"
 tags = ["Commentary","PWA","WASM","Electron"]
 title = "PWAs are going to eat the (app) world"
 +++

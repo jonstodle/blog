@@ -1,5 +1,5 @@
 +++
-date = "07/11/2016 10:00:00 +00:00"
+date = "2016-07-11T10:00:00.0000000+00:00"
 tags = ["Xamarin","Xamarin Forms"]
 title = "Removing items from Xamarin.Forms navigation back stack"
 +++

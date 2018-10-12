@@ -1,7 +1,7 @@
 +++
-date = "10/06/2017 10:00:00 +00:00"
+date = "2017-10-06T10:00:00.0000000+00:00"
 tags = ["C#","Azure","Azure Functions"]
-title = "Building a \"redirector\" with Airtable and Azure Functions"
+title = "Building a "redirector" with Airtable and Azure Functions"
 +++
 Once in a while I want a simple url alias. Say I want the link to my Stack
 Overflow profile, but I want a simple, short url that's easy to remember. I want

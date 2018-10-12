@@ -1,5 +1,5 @@
 +++
-date = "05/09/2017 10:00:00 +00:00"
+date = "2017-05-09T10:00:00.0000000+00:00"
 tags = ["Realm"]
 title = "Clever add and edit logic with Realm"
 +++

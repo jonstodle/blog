@@ -1,5 +1,5 @@
 +++
-date = "01/24/2018 11:00:00 +00:00"
+date = "2018-01-24T11:00:00.0000000+00:00"
 tags = ["Realm"]
 title = "Storing enums in Realm"
 +++

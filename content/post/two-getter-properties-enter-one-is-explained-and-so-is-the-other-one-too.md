@@ -1,5 +1,5 @@
 +++
-date = "07/28/2017 10:00:00 +00:00"
+date = "2017-07-28T10:00:00.0000000+00:00"
 tags = ["C#"]
 title = "Two getter properties enter, one is explained... and so is the other one too"
 +++

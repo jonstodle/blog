@@ -1,5 +1,5 @@
 +++
-date = "09/10/2018 21:26:51 +00:00"
+date = "2018-09-10T21:26:51.0000000+00:00"
 tags = ["ASP.NET Core","Docker","now.sh"]
 title = "Running ASP.NET Core on now.sh with Docker"
 +++

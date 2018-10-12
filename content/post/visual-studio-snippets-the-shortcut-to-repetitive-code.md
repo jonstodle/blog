@@ -1,5 +1,5 @@
 +++
-date = "08/01/2016 10:00:00 +00:00"
+date = "2016-08-01T10:00:00.0000000+00:00"
 tags = ["Tip"]
 title = "Visual Studio Snippets: the shortcut to repetitive code"
 +++

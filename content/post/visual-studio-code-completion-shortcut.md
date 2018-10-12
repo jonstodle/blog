@@ -1,5 +1,5 @@
 +++
-date = "11/26/2016 11:00:00 +00:00"
+date = "2016-11-26T11:00:00.0000000+00:00"
 tags = ["Tip"]
 title = "Visual Studio Code Completion Shortcut"
 +++
