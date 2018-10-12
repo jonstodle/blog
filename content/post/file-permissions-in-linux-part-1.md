@@ -1,7 +1,9 @@
 +++
 date = "03/30/2018 10:47:00 +00:00"
-tags = ["Linux","Tip"]
+draft = true
+tags = ["Linux", "Tip"]
 title = "File permissions in Linux - Part 1"
+
 +++
 When working with Linux, you'll come across file permissions at a pretty early
 stage. As a persons who's born and bred on Windows, that was a strange new
