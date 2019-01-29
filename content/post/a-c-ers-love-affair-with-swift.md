@@ -1,6 +1,6 @@
 +++
 date = "2017-04-09T10:00:00.0000000+00:00"
-tags = ["C#","Swift"]
+tags = ["CSharp","Swift"]
 title = "A C#-er’s love affair with Swift"
 +++
 My language of choice is C#. This is partly because it’s the first language I learned properly, partly because it’s familiar and comfortable, and partly because I like the syntax.

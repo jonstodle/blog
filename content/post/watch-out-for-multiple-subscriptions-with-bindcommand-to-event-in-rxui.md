@@ -1,6 +1,6 @@
 +++
 date = "2017-09-16T10:00:00.0000000+00:00"
-tags = ["ReactiveUI","C#"]
+tags = ["ReactiveUI","CSharp"]
 title = "Watch out for multiple subscriptions with BindCommand to event in RxUI"
 +++
 When using the handy binding methods in ReactiveUI, you might find yourself using the very handy overload of `BindCommand()` which let's you bind a command to an event:
