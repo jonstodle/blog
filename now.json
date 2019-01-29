@@ -1,8 +1,0 @@
-{
-    "name": "jonstodle-blog",
-    "alias": "blog.jonstodle.com",
-    "files": ["public"],
-    "static": {
-        "public": "public"
-    }
-}
