@@ -4,4 +4,4 @@ title = "Code & Sundry"
 theme = "basics"
 
 [permalinks]
-    post = "/:slug/"
+    post = "/:filename/"
