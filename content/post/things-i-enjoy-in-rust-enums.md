@@ -7,7 +7,7 @@ title = "Things I Enjoy in Rust: Enums"
 
 1. **Enums**
 2. [Error Handling](/things-i-enjoy-in-rust-error-handling)
-3. Immutability *(coming soon)*
+3. [Immutability](/things-i-enjoy-in-rust-immutability)
 4. Impl *(coming soon)*
 5. Macros *(coming soon)*
 
