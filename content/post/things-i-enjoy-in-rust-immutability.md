@@ -8,7 +8,7 @@ title = "Things I Enjoy in Rust: Immutability"
 1. [Enums](/things-i-enjoy-in-rust-enums)
 2. [Error Handling](/things-i-enjoy-in-rust-error-handling)
 3. **Immutability**
-4. Impl *(coming soon)*
+4. [Impl](/things-i-enjoy-in-rust-impl)
 5. Macros *(coming soon)*
 
 Immutability is a term very commonly heard in relation to functional programming languages. In most C-like languages, immutability is mostly an afterthought and is usually implemented in a somewhat clumsy way.

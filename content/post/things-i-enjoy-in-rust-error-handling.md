@@ -8,7 +8,7 @@ title = "Things I Enjoy in Rust: Error Handling"
 1. [Enums](/things-i-enjoy-in-rust-enums)
 2. **Error Handling**
 3. [Immutability](/things-i-enjoy-in-rust-immutability)
-4. Impl *(coming soon)*
+4. [Impl](/things-i-enjoy-in-rust-impl)
 5. Macros *(coming soon)*
 
 I've already talked about how I like how enums are used in Rust. They make it easy to express multiple states *and* the state's related data. One place this is excellently utilized is error handling.
