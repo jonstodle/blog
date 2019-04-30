@@ -9,7 +9,7 @@ title = "Things I Enjoy in Rust: Impl"
 2. [Error Handling](/things-i-enjoy-in-rust-error-handling)
 3. [Immutability](/things-i-enjoy-in-rust-immutability)
 4. **Impl**
-5. Macros *(coming soon)*
+5. [Macros](/things-i-enjoy-in-rust-macros)
 
 Rust doesn't have classes or methods. Instead it uses structs and associated functions. To associate a function with a struct you use the `impl` keyword:
 

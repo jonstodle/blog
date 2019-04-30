@@ -9,7 +9,7 @@ title = "Things I Enjoy in Rust: Enums"
 2. [Error Handling](/things-i-enjoy-in-rust-error-handling)
 3. [Immutability](/things-i-enjoy-in-rust-immutability)
 4. [Impl](/things-i-enjoy-in-rust-impl)
-5. Macros *(coming soon)*
+5. [Macros](/things-i-enjoy-in-rust-macros)
 
 I've been diving into Rust for the last couple of months, after my colleague started talking about it. I've been wanting to learn a lower level language, but C++ or something of the like have always seemed too daunting for me to even start.
 
