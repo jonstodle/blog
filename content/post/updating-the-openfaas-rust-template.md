@@ -1,5 +1,5 @@
 +++
-date = "2019-06-25T18:30:00.0000000+02:00"
+date = "2019-06-25T18:20:00.0000000+02:00"
 tags = ["Rust", "OpenFaaS]
 title = "Updating the OpenFaaS Rust Template"
 +++
