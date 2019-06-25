@@ -20,8 +20,8 @@ After I'd slimmed down the size of the produced image, I also went through the r
 You can find the updated OpenFaaS Rust template on [my Github](https://github.com/jonstodle/openfaas-rust-template) and you can use it in your OpenFaaS projects by running
 
 ```bash
-faas-cli template pull https://github.com/booyaa/openfaas-rust-template
-faas-cli new oxidize --lang rust
+faas-cli template pull https://github.com/jonstodle/openfaas-rust-template
+faas-cli new oxidize --language rust
 ```
 
 Happy coding!
