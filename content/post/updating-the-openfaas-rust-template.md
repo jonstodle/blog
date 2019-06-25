@@ -1,6 +1,6 @@
 +++
 date = "2019-06-25T18:20:00.0000000+02:00"
-tags = ["Rust", "OpenFaaS]
+tags = ["Rust", "OpenFaaS"]
 title = "Updating the OpenFaaS Rust Template"
 +++
 Recently we've started looking into using [OpenFaaS](https://www.openfaas.com/) at work. We're still only in the experimenting phase, but I'm really liking what I'm seeing so far.
