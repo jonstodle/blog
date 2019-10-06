@@ -10,6 +10,7 @@ collections:
     folder: 'content/post'
     create: true
     fields:
-      - {label: 'Title', name: 'title', widget: ''}
-      - {label: 'Tags', name: 'tags', widget: ''}
-      - {label: 'Body', name: 'body', widget: ''}
+      - {label: 'Title', name: 'title', widget: 'string'}
+      - {label: 'Tags', name: 'tags', widget: 'list', allow_add: false}
+      - {label: 'Date', name: 'date', widget: 'DateTime'}
+      - {label: 'Body', name: 'body', widget: 'markdown'}
