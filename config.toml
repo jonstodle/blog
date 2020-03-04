@@ -1,7 +1,7 @@
 baseURL = "http://blog.jonstodle.com/"
 languageCode = "en-us"
 title = "Code & Sundry"
-theme = "basics"
+theme = "basically"
 rssLimit = 20
 
 [author]
