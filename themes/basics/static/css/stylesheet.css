@@ -2,6 +2,21 @@ body {
     font-family: 'Ubuntu', sans-serif;
     margin: auto;
     max-width: 50em;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    padding: 0;
 }
 
 #page-title {
@@ -11,77 +26,99 @@ body {
 #page-title h1 a {
     color: black;
     font-size: 2.7rem;
+    font-weight: 400;
 }
 
-.post a {
-    color: black;
-}
-
-#author-name h6 a {
-  color: black;
-  font-weight: normal;
-  font-size: small;
-}
-
-#page-title a:hover, .post a:hover {
-    text-decoration: underline;
-}
-
-.date-time-title {
-    font-family: 'Ubuntu Mono', monospace;
+#container {
+    padding: 0 1em 1em;
 }
 
 .blog-post-content {
-  padding-top: 1em;
-  padding-bottom: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
-.posts_listing li {
-  list-style-type: none;
+#posts-listing {
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+#posts-listing a {
+    color: black;
+}
+
+#posts-listing li {
+    list-style-type: none;
+}
+
+#posts-listing .row {
+    display: flex;
+}
+
+#posts-listing .row .date-time {
+    flex: 3;
+}
+
+#posts-listing .row .title {
+    flex: 9;
 }
 
 h1 {
-  font-size: 2rem;
+    font-size: 2rem;
 }
 
 h2 {
-  font-size: 1.7rem;
+    font-size: 1.7rem;
 }
 
 h3 {
-  font-size: 1.4rem;
+    font-size: 1.4rem;
 }
 
-h4  {
-  font-size: 1.2rem;
+h4 {
+    font-size: 1.2rem;
 }
 
-h5  {
-  font-size: 1rem;
+h5 {
+    font-size: 1rem;
 }
 
-h6  {
-  font-size: 0.8rem;
+h6 {
+    font-size: 0.8rem;
 }
 
 img {
-  max-width: 100%;
-}
-
-code {
-  font-family: 'Ubuntu Mono', monospace;
-  white-space: pre;
-  overflow-x: auto;
+    max-width: 100%;
 }
 
 pre {
-  overflow-x: auto;
-  padding-left: 5px;
-  padding-right: 5px;
-  border: 1px solid lighten(#111, 90);
-  background-color: #efefef
+    overflow-x: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid lighten(#111, 90);
+    background-color: #efefef;
 }
 
-footer  {
-  text-align: center;
+pre code {
+    font-size: inherit;
+    color: inherit;
+    word-break: normal;
+}
+
+code {
+    font-family: 'Ubuntu Mono', monospace;
+    white-space: pre;
+    overflow-x: auto;
+    font-size: 87.5%;
+    color: #e83e8c;
+    word-break: break-word;
+}
+
+@media all and (max-width: 500px) {
+    #posts-listing .row .date-time {
+        display: none;
+    }
+
+    pre {
+        margin: 0 -1em;
+    }
 }
