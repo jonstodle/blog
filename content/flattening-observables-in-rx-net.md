@@ -1,7 +1,8 @@
 +++
-date = "2017-10-26T10:00:00.0000000+00:00"
-tags = ["Reactive Extensions"]
 title = "Flattening observables in Rx.NET"
+date = 2017-10-26T10:00:00.0000000+00:00
+[taxonomies]
+tags = ["Reactive Extensions"]
 +++
 Quite often when working with Rx, you'll end up with an observable of observables: `IObservable<IObservable<int>>` for example. When you were learning Rx, you were probably told to use `SelectMany` to *flatten* the observable:
 
@@ -74,7 +75,7 @@ Imagine however that the observable that is returned inside the `SelectMany` emi
 
 This is perhaps best explained visually. This shows an `Observable.Interval` emitting a signal every 2 seconds (these signals are again transformed to strings to more easily distinguish them). That signal is transformed to a new `Observable.Interval` which will emit signals half a second apart.
 
-![SelectMany](/uploads/selectmany.gif)
+![SelectMany](/images/selectmany.gif)
 
 Notice how the signals from the different `Observable.Interval`s mix with each other. That might not be what we want.
 
@@ -86,7 +87,7 @@ When a new `IObservable<T>` is emitted by `IObservable<IObservable<T>>`, `Switch
 
 This example uses a `Select().Switch()` combo. Notice how we only receive signals from the most recent `Observable.Interval`.
 
-![Select + Switch](/uploads/selectswitch.gif)
+![Select + Switch](/images/selectswitch.gif)
 
 # Concat
 
@@ -94,7 +95,7 @@ The last operator I'm going to cover is `Concat`. `Concat` also only allows one 
 
 Let's look at a gif:
 
-![Concat](/uploads/concat.gif)
+![Concat](/images/concat.gif)
 
 Each observable emits 4 signals, and when that's done `Concat` let's the next observable emit it's 4 values.
 

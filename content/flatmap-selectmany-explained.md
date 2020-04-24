@@ -1,7 +1,8 @@
 +++
-date = "2017-07-08T10:00:00.0000000+00:00"
-tags = ["Reactive Extensions"]
 title = "FlatMap explained"
+date = 2017-07-08T10:00:00.0000000+00:00
+[taxonomies]
+tags = ["Reactive Extensions"]
 +++
 I was recently helping an acquaintance out with understanding `flatMap` (or `SelectMany` as it's known in Rx.NET). After helping him set up his observables he noted that `flatMap` is almost like magic.
 

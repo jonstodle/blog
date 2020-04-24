@@ -1,7 +1,8 @@
 +++
-date = "2017-09-26T10:00:00.0000000+00:00"
-tags = ["CSharp"]
 title = "Overloading operators in C#"
+date = 2017-09-26T10:00:00.0000000+00:00
+[taxonomies]
+tags = ["CSharp"]
 +++
 C# is a mature language and at this point there are some features that are forgotten, or not even discovered, by users of the language. I've previously written about one of my favorite "obscure" features: the [implicitly types array syntax](/the-underrated-new-in-c/).
 

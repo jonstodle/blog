@@ -1,7 +1,8 @@
 +++
-date = "2016-09-08T10:00:00.0000000+00:00"
-tags = ["CSharp"]
 title = "Private fields with underscore prefixes, or not?"
+date = 2016-09-08T10:00:00.0000000+00:00
+[taxonomies]
+tags = ["CSharp"]
 +++
 Coding styles is always a very volatile topic. Everyone has their own interpretation on how it should be. In this post I’m going to tell you about my journey of preferring private fields with an underscore, then to not using them and then, recently, coming back again.
 

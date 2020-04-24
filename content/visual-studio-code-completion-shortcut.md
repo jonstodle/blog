@@ -1,7 +1,8 @@
 +++
-date = "2016-11-26T11:00:00.0000000+00:00"
-tags = ["Tip"]
 title = "Visual Studio Code Completion Shortcut"
+date = 2016-11-26T11:00:00.0000000+00:00
+[taxonomies]
+tags = ["Tip"]
 +++
 I’ve never appreciated Intellisense in Visual Studio as much as I do now. Intellisense is the code completion technology present in the Visual Studio family of products. After using Xcode for a little while, and it’s atrocious code completion, I can truly appreciate Intellisense in it’s full glory.
 
@@ -16,15 +17,15 @@ Let’s say you have this list of fields:
 
 You could type “name” every time you access these fields:
 
-![all-letters-2015](/uploads/all-letters-2015.gif)
+![all-letters-2015](/images/all-letters-2015.gif)
 
 Or you can just type the capital letters of the name of the field (or property/class) and skip over the lowercase letters to get to the part of the name that’s unique:
 
-![capital-letters-2015](/uploads/capital-letters-2015.gif)
+![capital-letters-2015](/images/capital-letters-2015.gif)
 
 In Visual Studio 2017 this is made even better as Intellisense highlights the part of the name it’s matched to your input:
 
-![capital-letters-2017](/uploads/capital-letters-2017.gif)
+![capital-letters-2017](/images/capital-letters-2017.gif)
 
 This means you can reach MainWindowViewModel quickly by typing “MWVM” and hitting enter/space or any of the other characters which completes the suggestion.
 

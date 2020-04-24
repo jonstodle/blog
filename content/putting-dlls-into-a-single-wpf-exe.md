@@ -1,7 +1,8 @@
 +++
-date = "2016-11-28T11:00:00.0000000+00:00"
-tags = ["WPF"]
 title = "Putting DLLs Into a Single WPF Exe"
+date = 2016-11-28T11:00:00.0000000+00:00
+[taxonomies]
+tags = ["WPF"]
 +++
 I’ve been working on a tool for use at my job. It’s written in WPF and using all my favorite libraries like [ReactiveUI](http://reactiveui.net/), [Reactive Extensions](http://reactivex.io/) and [Json.NET](http://www.newtonsoft.com/json).
 
@@ -21,11 +22,11 @@ The solution, however, is simple:
 
 Add the two assemblies to your project inside folders named `Costura32` and `Costura64`…
 
-![screenshot-161128-121452](/uploads/screenshot-161128-121452.png)
+![screenshot-161128-121452](/images/screenshot-161128-121452.png)
 
 …set their build action to `Embedded Resource`…
 
-![screenshot-161128-121601.png](/uploads/screenshot-161128-121601.png)
+![screenshot-161128-121601.png](/images/screenshot-161128-121601.png)
 
 …then tell Costura to add the assemblies in the `FodyWeavers.xml` file:
 

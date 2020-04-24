@@ -1,7 +1,8 @@
 +++
-date = "2016-08-31T10:00:00.0000000+00:00"
-tags = ["iOS"]
 title = "I’ve switched to an iPhone, and it’s all very good"
+date = 2016-08-31T10:00:00.0000000+00:00
+[taxonomies]
+tags = ["iOS"]
 +++
 I’ve switched to an iPhone. After sticking with a Windows phone for over 5 years, I’ve gone back to Apple and an iPhone 6S Plus. In less than 48 hours I’m already more happy with it than I was with my Lumia 950XL.
 

@@ -1,8 +1,9 @@
----
-title: "If Statements With Nullable Bools"
-tags: ["CSharp"]
-date: 2020-02-17T20:04:56+01:00
----
++++
+title = "If Statements With Nullable Bools"
+date = 2020-02-17T20:04:56+01:00
+[taxonomies]
+tags = ["CSharp"]
++++
 
 Nullable `bool` in C# might sometimes feel a bit of a hassle to work with. I'm here to give you a few tips that took me embarrassingly long to pick up on. I'm hoping this saves you some hassle too.
 

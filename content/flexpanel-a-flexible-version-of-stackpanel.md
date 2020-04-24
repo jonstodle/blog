@@ -1,7 +1,8 @@
 +++
-date = "2016-12-05T11:00:00.0000000+00:00"
-tags = ["WPF","UWP"]
 title = "FlexPanel: A Flexible version of StackPanel"
+date = 2016-12-05T11:00:00.0000000+00:00
+[taxonomies]
+tags = ["WPF","UWP"]
 +++
 `Panel` is a seriously underrated feature of Microsoft’s XAML platform. Panel is the base class for basically all the controls in XAML which lay out children. How the children are laid out is up to the implementation of two simple methods in the sub classes.
 
@@ -17,7 +18,7 @@ Lending some inspiration from both of these technologies, I’ve come up with my
 
 Let’s see how looks when in use:
 
-![flexpanel_1.gif](/uploads/flexpanel_1.gif)
+![flexpanel_1.gif](/images/flexpanel_1.gif)
 
 The implementation is pretty straight forward, but first let me quickly explain how a `Panel` works:
 
@@ -146,10 +147,10 @@ By using a comibination of flexing and non-flexing controls and different weight
 
 `FlexPanel` where the yellow rectangle has `FlexWeight = 1` and the red rectangle `FlexWeight = 2`
 
-![flexpanel_2.gif](/uploads/flexpanel_2.gif)
+![flexpanel_2.gif](/images/flexpanel_2.gif)
 
 `FlexPanel` with a child `FlexPanel` which flexes and which itself has a flexing child control
 
-![flexpanel_3.gif](/uploads/flexpanel_3.gif)
+![flexpanel_3.gif](/images/flexpanel_3.gif)
 
 The whole thing is on [Github as a gist](https://gist.github.com/jonstodle/be45983fb4d597dd195c347280258e7e). Go grab if you want to use it.

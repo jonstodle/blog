@@ -1,8 +1,8 @@
 +++
-date = "2012-07-13T10:00:00.0000000+00:00"
-tags = ["Windows Phone"]
 title = "Does IsolatedStorageSettings persist through an app update?"
-
+date = 2012-07-13T10:00:00.0000000+00:00
+[taxonomies]
+tags = ["Windows Phone"]
 +++
 This was a question I ended up asking myself as I was about to push my first update to Quote List. My first thought was “Yes”, that seems the logical answer. The data that I put there are persistent through application launches and I’ve made sure the code to handle this data checks whether there’s data stored already, to prevent overwriting existing data. As it turns out, the updating of an app doesn’t touch the data stored in IsolatedStorageSettings. So, as long as you’ve written proper code that checks for existing data and prevents the app to overwrite said data if it’s present, there’s no worry.
 

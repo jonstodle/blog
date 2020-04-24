@@ -1,7 +1,8 @@
 +++
-date = "2019-04-21T12:00:00+02:00"
-tags = ["Rust", "Things I Enjoy in Rust"]
 title = "Things I Enjoy in Rust: Error Handling" 
+date = 2019-04-21T12:00:00+02:00
+[taxonomies]
+tags = ["Rust", "Things I Enjoy in Rust"]
 +++
 **Things I enjoy in Rust:**
 

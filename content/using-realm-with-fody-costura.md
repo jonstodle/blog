@@ -1,7 +1,8 @@
 +++
-date = "2017-03-10T11:00:00.0000000+00:00"
-tags = ["Realm"]
 title = "Using Realm with Fody.Costura"
+date = 2017-03-10T11:00:00.0000000+00:00
+[taxonomies]
+tags = ["Realm"]
 +++
 I’m a huge fan of Realm and was very excited when they recently announced and released Realm for Win32. This means you can use Realm in WPF and Windows Forms applications.
 

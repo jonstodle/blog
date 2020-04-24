@@ -1,7 +1,8 @@
 +++
-date = "2017-06-18T10:00:00.0000000+00:00"
-tags = ["Realm"]
 title = "Realm 101"
+date = 2017-06-18T10:00:00.0000000+00:00
+[taxonomies]
+tags = ["Realm"]
 +++
 This is meant as a comprehensive introduction to Realm for use with Xamarin. While I am going to do this in Xamarin.Forms, it is very applicable to Xamarin.iOS, Xamarin.Android, UWP and WPF too. With a little imagination you could probably use this as a 101 for Swift, Java or JavaScript too.
 

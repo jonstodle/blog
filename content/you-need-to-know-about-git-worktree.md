@@ -1,9 +1,9 @@
----
-title: "You Need to Know About Git Worktree"
-tags: ["git", "tips"]
-date: 2020-03-30T20:24:06+02:00
-draft: false
----
++++
+title = "You Need to Know About Git Worktree"
+date = 2020-03-30T20:24:06+02:00
+[taxonomies]
+tags = ["git", "tips"]
++++
 
 I've been using Git for source control for many years, but there's still lots of things you can do in Git that I haven't even discovered yet. `git-worktree` was one of those things. Thanks to [codingblocks.net](https://www.codingblocks.net/) for mentioning this in one of their episodes.
 

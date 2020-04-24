@@ -1,7 +1,8 @@
 +++
-date = "2018-03-01T11:00:00.0000000+00:00"
-tags = ["Commentary"]
 title = "A year of blogging"
+date = 2018-03-01T11:00:00.0000000+00:00
+[taxonomies]
+tags = ["Commentary"]
 +++
 One year ago I set myself a goal: I'm going to write more on my blog. I made a two step plan to accomplish this goal:
 

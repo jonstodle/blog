@@ -1,7 +1,8 @@
 +++
-date = "2017-06-28T10:00:00.0000000+00:00"
-tags = ["Commentary"]
 title = "The infamously illusive edit button"
+date = 2017-06-28T10:00:00.0000000+00:00
+[taxonomies]
+tags = ["Commentary"]
 +++
 Recently Twitter rolled out an visual update to their apps and website. Everything is round now and users aren't happy. For years there have been requests for an edit button and the ability to change their tweets, but Twitter hasn't complied.
 

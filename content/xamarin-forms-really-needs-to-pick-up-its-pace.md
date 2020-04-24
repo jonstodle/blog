@@ -1,7 +1,8 @@
 +++
-date = "2018-03-15T11:00:00.0000000+00:00"
-tags = ["Xamarin Forms","Xamarin","Commentary"]
 title = "Xamarin.Forms really needs to pick up it's pace"
+date = 2018-03-15T11:00:00.0000000+00:00
+[taxonomies]
+tags = ["Xamarin Forms","Xamarin","Commentary"]
 +++
 I recently tweeted this:
 

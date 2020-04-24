@@ -1,11 +1,12 @@
 +++
-date = "2017-08-17T10:00:00.0000000+00:00"
-tags = ["Azure"]
 title = "Azure subscriptions, app service plan and app terms explained"
+date = 2017-08-17T10:00:00.0000000+00:00
+[taxonomies]
+tags = ["Azure"]
 +++
 When I first got started with Azure I was confused with all these terms. I just wanted a web app, which let's me put a website on the web, but I needed a subscription and an app service plan first. What?!
 
-![Creating a Web App](/uploads/Screenshot-170712-092111-1.png)
+![Creating a Web App](/images/Screenshot-170712-092111-1.png)
 
 # Subscription
 
@@ -21,7 +22,7 @@ I think for most people, a single subscription is what you're going to end up wi
 
 # App Service Plan
 
-![Creating an App Service Plan](/uploads/Screenshot-170712-095702.png)
+![Creating an App Service Plan](/images/Screenshot-170712-095702.png)
 
 The *App Service Plan* is the server you are going to run your apps on. The reason it's called an app service plan is because you're not necessarily getting your own server.
 

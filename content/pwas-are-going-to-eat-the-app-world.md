@@ -1,7 +1,8 @@
 +++
-date = "2018-04-15T10:00:00.0000000+00:00"
-tags = ["Commentary","PWA","WASM","Electron"]
 title = "PWAs are going to eat the (app) world"
+date = 2018-04-15T10:00:00.0000000+00:00
+[taxonomies]
+tags = ["Commentary","PWA","WASM","Electron"]
 +++
 There's been a lot of talk around Progressive Web Apps (or PWAs) for a time now. Some people are condemning them and don't want to give the browser even more access to data and sensors, while others are heralding the end of the native apps. While these are extremes, I think there are some interesting ramifications that the PWAs are bringing with them.
 

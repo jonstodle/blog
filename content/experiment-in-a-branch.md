@@ -1,7 +1,8 @@
 +++
-date = "2017-11-05T11:00:00.0000000+00:00"
-tags = ["Git"]
 title = "Experiment in a Git branch"
+date = 2017-11-05T11:00:00.0000000+00:00
+[taxonomies]
+tags = ["Git"]
 +++
 When programming you often come across code you'll want to change or refactor. After some tinkering the improvement turns out to not be such a great improvement after all.
 

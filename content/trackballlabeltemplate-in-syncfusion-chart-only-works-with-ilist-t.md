@@ -1,7 +1,8 @@
 +++
-date = "2017-08-07T10:00:00.0000000+00:00"
-tags = ["Xamarin Forms","Syncfusion"]
 title = "TrackballLabelTemplate in Syncfusion chart only works with a list"
+date = 2017-08-07T10:00:00.0000000+00:00
+[taxonomies]
+tags = ["Xamarin Forms","Syncfusion"]
 +++
 After spending too many hours trying to figure this one out, I have to write it down to help any unfortunate soul that should come across this undocumented behavior. (Notice how I put all the important keywords in the title?)
 

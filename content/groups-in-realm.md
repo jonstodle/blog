@@ -1,7 +1,8 @@
 +++
-date = "2017-06-08T10:00:00.0000000+00:00"
-tags = ["Realm"]
 title = "Groups in Realm"
+date = 2017-06-08T10:00:00.0000000+00:00
+[taxonomies]
+tags = ["Realm"]
 +++
 In most databases you can group records by a field. That is not possible in Realm, however. Not at the moment at least. I'm guessing this is something they'll look to include in the future.
 

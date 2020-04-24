@@ -1,12 +1,12 @@
 +++
-date = "2016-07-11T10:00:00.0000000+00:00"
-tags = ["Xamarin", "Xamarin Forms"]
 title = "Removing items from Xamarin.Forms navigation back stack"
-
+date = 2016-07-11T10:00:00.0000000+00:00
+[taxonomies]
+tags = ["Xamarin", "Xamarin Forms"]
 +++
 I’m currently hacking together a small utility/calculator app for my girlfriend and wanted to enable navigation from one page to another, but remove the page I was navigating from from the navigation back stack. Like I’ve masterly illustrated below:
 
-![remove-from-navigation](/uploads/remove-from-navigation.png)
+![remove-from-navigation](/images/remove-from-navigation.png)
 
 Navigating backwards from page 3 should send the user directly to page 1 and skip page 2 entirely.
 

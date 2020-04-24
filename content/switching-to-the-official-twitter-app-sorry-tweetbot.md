@@ -1,7 +1,8 @@
 +++
-date = "2018-02-24T11:00:00.0000000+00:00"
-tags = ["Commentary","Twitter","Tweetbot"]
 title = "Switching to the official Twitter app - sorry Tweetbot"
+date = 2018-02-24T11:00:00.0000000+00:00
+[taxonomies]
+tags = ["Commentary","Twitter","Tweetbot"]
 +++
 I recently began using the official Twitter app. I've been a long time fan of Tweetbot, but I've become more and more frustrated by Twitter's insistance on hampering third party developers by limiting their public API.
 

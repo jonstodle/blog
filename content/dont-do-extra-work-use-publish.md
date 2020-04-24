@@ -1,7 +1,8 @@
 +++
-date = "2017-04-29T10:00:00.0000000+00:00"
-tags = ["Reactive Extensions"]
 title = "Don’t do extra work, use Publish()"
+date = 2017-04-29T10:00:00.0000000+00:00
+[taxonomies]
+tags = ["Reactive Extensions"]
 +++
 When using [Reactive Extensions](http://reactivex.io/) you sooner or later encounter a point where you end up re-using the same source observable to build two different observables. Something like this perhaps:
 

@@ -1,7 +1,8 @@
 +++
-date = "2018-02-13T11:00:00.0000000+00:00"
-tags = ["Commentary","Swift","PHP","Dart","Python"]
 title = "Learn a new programming language"
+date = 2018-02-13T11:00:00.0000000+00:00
+[taxonomies]
+tags = ["Commentary","Swift","PHP","Dart","Python"]
 +++
 I remember reading a tweet saying "you should learn a new programming language each year" about two years back. My first thought was that I didn't need a new programming language, I was quite happy with C#. I had done some small projects in JavaScript and TypeScript, and even a tutorial on PHP, but didn't get hooked.
 

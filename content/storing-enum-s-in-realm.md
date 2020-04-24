@@ -1,7 +1,8 @@
 +++
-date = "2018-01-24T11:00:00.0000000+00:00"
-tags = ["Realm"]
 title = "Storing enums in Realm"
+date = 2018-01-24T11:00:00.0000000+00:00
+[taxonomies]
+tags = ["Realm"]
 +++
 Ever since I came across [Realm](https://realm.io), I've loved it. It's fast, easy to use, no hassle to set up, easy migrations. Since the time I started using it they've added fantastic, automatic syncing with a backend. And the next thing on the horizon is a cloud service for the backend, so you don't have to run it yourself (yay!).
 

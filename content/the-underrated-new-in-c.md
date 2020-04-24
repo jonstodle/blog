@@ -1,7 +1,8 @@
 +++
-date = "2017-07-18T10:00:00.0000000+00:00"
-tags = ["CSharp"]
 title = "The underrated new[] { } in C#"
+date = 2017-07-18T10:00:00.0000000+00:00
+[taxonomies]
+tags = ["CSharp"]
 +++
 17 years into it's life, C# has a lot of language features. This means that some of them are likely to go unnoticed by some people, maybe even a lot of people.
 

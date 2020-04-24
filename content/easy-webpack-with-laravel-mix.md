@@ -1,7 +1,8 @@
 +++
-date = "2017-11-25T11:00:00.0000000+00:00"
-tags = ["JavaScript","Webpack"]
 title = "Easy Webpack with Laravel Mix"
+date = 2017-11-25T11:00:00.0000000+00:00
+[taxonomies]
+tags = ["JavaScript","Webpack"]
 +++
 I've started to look into Webpack about 3 times, but I always get overwhelmed and discouraged at an early point and just give it up as a bad job. (If you've got a good getting started tutorial I'm all ears).
 

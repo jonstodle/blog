@@ -1,7 +1,8 @@
 +++
-date = "2017-11-15T11:00:00.0000000+00:00"
-tags = ["Reactive Extensions","RxJS","Solve For Rx"]
 title = "Solve for Rx: Activity indicator with minimum display time"
+date = 2017-11-15T11:00:00.0000000+00:00
+[taxonomies]
+tags = ["Reactive Extensions","RxJS","Solve For Rx"]
 +++
 # Solve for Rx
 
@@ -13,7 +14,7 @@ If you have any suggestions on problems to solve with Rx, I'd love to hear them!
 
 Imagine you've made a fancy activity indicator for your app. You're going to show it every time the user has to wait for something to happen. During a web request perhaps. I've made a simple one like this:
 
-![Pinwheel](/uploads/pinwheel.gif)
+![Pinwheel](/images/pinwheel.gif)
 
 ## First implementation
 
@@ -63,7 +64,7 @@ While it means I don't get to show my awesome animation, it also means that the 
 
 The result of the short response time is this:
 
-![Pinwheel short](/uploads/pinwheel-short.gif)
+![Pinwheel short](/images/pinwheel-short.gif)
 
 ## Fixing the implementation
 
@@ -110,7 +111,7 @@ To fix this we want the animation to display for at least 2 seconds before it st
 
 The new result is this:
 
-![Pinwheel](/uploads/pinwheel.gif)
+![Pinwheel](/images/pinwheel.gif)
 
 ---
 

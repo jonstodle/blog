@@ -1,7 +1,8 @@
 +++
-date = "2017-10-16T10:00:00.0000000+00:00"
-tags = ["Python"]
 title = "Sending an email with Python"
+date = 2017-10-16T10:00:00.0000000+00:00
+[taxonomies]
+tags = ["Python"]
 +++
 I haven't done any Python programming in years. I think it's probably 10 years ago, and then it was only some basic learning-how-to-program stuff.
 
@@ -13,7 +14,7 @@ The first thing I thought I'd tackle is sending an email. I figured this would b
 
 My first instinct was of course to end up on Stack Overflow. My google-fu landed me on [this](https://stackoverflow.com/questions/16968758) question and answer.
 
-![Question on Stack Overflow](/uploads/Screenshot-170926-083404.png)
+![Question on Stack Overflow](/images/Screenshot-170926-083404.png)
 
 Turns out it's really simple. NICE!
 

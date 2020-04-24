@@ -1,7 +1,8 @@
 +++
-date = "2017-03-20T11:00:00.0000000+00:00"
-tags = ["CSharp"]
 title = "2.5 angles on singletons in C#"
+date = 2017-03-20T11:00:00.0000000+00:00
+[taxonomies]
+tags = ["CSharp"]
 +++
 This is not a thorough walk through of the technical pros and cons of different singleton patterns in C#. This is just me philosophizing over the three approaches I’ve used in my code.
 

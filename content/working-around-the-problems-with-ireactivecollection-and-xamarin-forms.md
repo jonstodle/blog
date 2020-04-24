@@ -1,7 +1,8 @@
 +++
-date = "2017-02-28T11:00:00.0000000+00:00"
-tags = ["Xamarin","Xamarin Forms"]
 title = "Working around the problems with IReactiveCollection and Xamarin.Forms"
+date = 2017-02-28T11:00:00.0000000+00:00
+[taxonomies]
+tags = ["Xamarin","Xamarin Forms"]
 +++
 I love [ReactiveUI](http://reactiveui.net/). Ever since I first stumbled across it after learning some rudamentary [ReactiveExtensions](http://reactivex.io/) I’ve used it for all my projects. And as so many users of ReactiveUI says: I don’t how to make an app without it™.
 

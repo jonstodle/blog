@@ -1,8 +1,8 @@
 +++
-date = "2016-08-01T10:00:00.0000000+00:00"
-tags = ["Tip"]
 title = "Visual Studio Snippets: the shortcut to repetitive code"
-
+date = 2016-08-01T10:00:00.0000000+00:00
+[taxonomies]
+tags = ["Tip"]
 +++
 Some code is very repetitive. Extremely repetitive. Like writing properties for a class, printing to the debug output or adding a call to the logger.
 
@@ -14,7 +14,7 @@ Snippets are a way to create short character sequences that Visual Studio will r
 
 Typing prop and double tapping Tab will insert a standard public property. You will be asked to set the type and name of the property by hitting Tab to cycle through each part to be edited. When you’re finished, hit *Enter* to confirm.
 
-![prop-snippet](/uploads/prop-snippet.gif)
+![prop-snippet](/images/prop-snippet.gif)
 
 # Adding your own
 
@@ -97,7 +97,7 @@ The top of the document has the author and a description of the snippet, but her
 
 It’ll end up working like this:
 
-![propc-snippet](/uploads/propc-snippet.gif)
+![propc-snippet](/images/propc-snippet.gif)
 
 # Adding them to Visual Studio
 

@@ -1,7 +1,8 @@
 +++
-date = "2017-07-28T10:00:00.0000000+00:00"
-tags = ["CSharp"]
 title = "Two getter properties enter, one is explained... and so is the other one too"
+date = 2017-07-28T10:00:00.0000000+00:00
+[taxonomies]
+tags = ["CSharp"]
 +++
 With the introduction of C# 6 there are now two types of automatic getter only properties:
 

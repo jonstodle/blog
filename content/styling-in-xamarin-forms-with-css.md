@@ -1,7 +1,8 @@
 +++
-date = "2017-12-25T11:00:00.0000000+00:00"
-tags = ["Xamarin Forms","CSS"]
 title = "Styling in Xamarin.Forms with CSS"
+date = 2017-12-25T11:00:00.0000000+00:00
+[taxonomies]
+tags = ["Xamarin Forms","CSS"]
 +++
 Less than a week ago, CSS support was merged into the `master` branch of Xamarin.Forms. I've seen some people wonder what the point of CSS support is and how it may be useful. Personally I'm excited for CSS support. I want to tell you why.
 

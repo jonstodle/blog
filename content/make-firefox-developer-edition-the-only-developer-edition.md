@@ -1,7 +1,8 @@
 +++
-date = "2018-01-04T11:00:00.0000000+00:00"
-tags = ["Commentary"]
 title = "Make Firefox Developer Edition the only developer edition"
+date = 2018-01-04T11:00:00.0000000+00:00
+[taxonomies]
+tags = ["Commentary"]
 +++
 I recently switched from using Chrome as my main browser to Firefox. I actually quite like the new version 57 of Firefox (or Firefox Quantum as it's also called).
 

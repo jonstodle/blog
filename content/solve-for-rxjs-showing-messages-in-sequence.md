@@ -1,7 +1,8 @@
 +++
-date = "2018-01-14T11:00:00.0000000+00:00"
-tags = ["Reactive Extensions","Solve For Rx","RxJS"]
 title = "Solve for RxJS: Showing messages in sequence"
+date = 2018-01-14T11:00:00.0000000+00:00
+[taxonomies]
+tags = ["Reactive Extensions","Solve For Rx","RxJS"]
 +++
 # Solve for Rx
 

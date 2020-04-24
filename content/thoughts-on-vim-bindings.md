@@ -1,10 +1,9 @@
----
-title: Thoughts on Vim Bindings
-tags:
-  - Opinion
-  - Vim
-date: 2020-03-22T11:42:27Z
----
++++
+title = "Thoughts on Vim Bindings"
+date = 2020-03-22T11:42:27Z
+[taxonomies]
+tags = ["Opinion", "Vim"]
++++
 It started with a colleague of mine mentioning that he'd started using Vim bindings in his non-Vim editor, and he quite preferred it. I thought I'd give it a try, and haven't looked back. I find it empowering being able to do quite complex things with a few keystrokes.
 
 But in that fact also lies one of the contradictions with Vim (binding) users. Hardcore fans/users will tell you about all the time saving benefits, the productivity boost and other things that make Vim the superior editor to use. The problem is that optimizing the way you write code is a micro optimization. You probably spend around a tenth of your time actually writing. Most of the time you're reading code, thinking about code and discussing code, not writing it. Optimizing your typing speed is optimizing something that's not consuming a lot of your time.

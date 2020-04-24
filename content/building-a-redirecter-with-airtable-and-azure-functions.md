@@ -1,7 +1,8 @@
 +++
-date = "2017-10-06T10:00:00.0000000+00:00"
-tags = ["CSharp","Azure","Azure Functions"]
 title = "Building a \"redirector\" with Airtable and Azure Functions"
+date = 2017-10-06T10:00:00.0000000+00:00
+[taxonomies]
+tags = ["CSharp","Azure","Azure Functions"]
 +++
 Once in a while I want a simple url alias. Say I want the link to my Stack Overflow profile, but I want a simple, short url that's easy to remember. I want an easy way to register the complex and specify a simple and short alias url that redirects to my Stack Overflow profile.
 
@@ -23,7 +24,7 @@ Go register an account at [Airtable.com](https://airtable.com/). First we create
 
 Next we create a *base*. A base is like an Excel document, it can contain multiple tables of data. Click the plus icon and select *Start from scratch*. I've called the base *Redirects*.
 
-![Airtable team](/uploads/Screenshot-170918-104327.png)
+![Airtable team](/images/Screenshot-170918-104327.png)
 
 Click on the icon to open the base. Right click on the table tab (where it says *Table 1*) and rename it to *Paths*. Next we'll define three columns with the following types. Right click the existing column headers and click on *Customize field type* to change the name and field type:
 
@@ -58,11 +59,11 @@ Click on the icon to open the base. Right click on the table tab (where it says 
 
 I've also added some data to work with.
 
-![Redirects table](/uploads/Screenshot-170918-105256.png)
+![Redirects table](/images/Screenshot-170918-105256.png)
 
 To have a look at how to access the data through the API, click on the question mark in the upper right corner and click on *API documentation*.
 
-![](/uploads/Screen-Shot-2017-09-19-at-10.15.28.png)
+![](/images/Screen-Shot-2017-09-19-at-10.15.28.png)
 
 On this page you'll be able to see the API key (by toggling *show API key* in the upper right corner) and the REST endpoints to get the data from the base. There are some nice examples of responses you'll get from the API, with live data from your actual base.
 
@@ -76,13 +77,13 @@ That's everything we need from Airtable, so let's head over to the Azure Functio
 
 Launch the [Azure Portal](https://portal.azure.com/) and click the plus sign in the sidebar. Under the *Compute* category, you'll find *Function App*. Fill out the fields, just make sure *Hosting Plan* is set to *Consumption Plan*. Below's how I filled it out.
 
-![Azure Function setup](/uploads/Screenshot-170918-111244.png)
+![Azure Function setup](/images/Screenshot-170918-111244.png)
 
 Click on *Create* and Azure will deploy a new function app for you. After it's done deploying, you'll be able to find the function app in the sidebar under *More Services* > *Function Apps*.
 
 Select your function app in the list, and you'll be presented with this:
 
-![Function app overview](/uploads/Screenshot-170918-112337.png)
+![Function app overview](/images/Screenshot-170918-112337.png)
 
 ## Storing the API key
 
@@ -90,13 +91,13 @@ It's not good practice to store API keys directly in your code, so we'll add it 
 
 Click on *Application settings* under *Configured features*. Under *Application settings*, click on *Add new setting* and give it the name `AirtableApiKey` and paste the API key into the value field.
 
-![](/uploads/Screen-Shot-2017-09-19-at-10.49.30.png)
+![](/images/Screen-Shot-2017-09-19-at-10.49.30.png)
 
 ## Creating the function
 
 Click on the blue plus icon on the *Functions* node to the right and click on *Custom function*, hidden below *Get started on your own*. Click on *HttpTrigger - C#*, name you function *Redirect* and set *Authorization level* to *Anonymous*. Click on *Create*.
 
-![](/uploads/Screen-Shot-2017-09-19-at-10.46.55.png)
+![](/images/Screen-Shot-2017-09-19-at-10.46.55.png)
 
 You'll be met with a text editor containing the contents of *run.csx*, a C# script. Remove all the code, we're going to do our own thing. Before we start adding code however, we need to specify the route template.
 
@@ -106,7 +107,7 @@ Click on *Integrate* below the *HttpRedirect* function in the sidebar. Set *Allo
 
 Next, set the *Route template* to `{path}`. This specifies we want to capture the path after the domain and store it in a variable called `path`. `path` will also be the name of the parameter that's passed into our handler.
 
-![Configuring the route](/uploads/Screenshot-170918-131339.png)
+![Configuring the route](/images/Screenshot-170918-131339.png)
 
 ## Removing the */api* part of the path
 

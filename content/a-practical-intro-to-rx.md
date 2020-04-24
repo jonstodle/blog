@@ -1,7 +1,8 @@
 +++
-date = "2017-08-27T10:00:00.0000000+00:00"
-tags = ["Reactive Extensions","RxJS"]
 title = "A practical intro to Rx"
+date = 2017-08-27T10:00:00.0000000+00:00
+[taxonomies]
+tags = ["Reactive Extensions","RxJS"]
 +++
 If you're trying to get started with programming with reactive extensions and observable programming, you are going to feel overwhelmed. You're trying to start thinking in a new way, and in some cases in a completely opposite way, than what you have been doing since you started programming.
 

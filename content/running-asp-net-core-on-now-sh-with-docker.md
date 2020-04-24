@@ -1,11 +1,12 @@
 +++
-date = "2018-09-10T21:26:51.0000000+00:00"
-tags = ["ASP.NET Core","Docker","now.sh"]
 title = "Running ASP.NET Core on now.sh with Docker"
+date = 2018-09-10T21:26:51.0000000+00:00
+[taxonomies]
+tags = ["ASP.NET Core","Docker","now.sh"]
 +++
 I recently fell in love with [now.sh](https://now.sh). It's a super nice hosting service which let's deploy static websites, node powered websites or Docker containers using i single command in your terminal: `now`. You literally write `now` in your terminal and your site is live in seconds:
 
-![Demo of deploying to now.sh](/uploads/now-sh-demo-2.gif)
+![Demo of deploying to now.sh](/images/now-sh-demo-2.gif)
 
 The original video clip was less than 1:45 minutes!
 
@@ -38,7 +39,7 @@ CMD ["dotnet", "NowShDemo.dll"]
 
 But this made me hit an unforeseen obstacle. The size of the final Docker image can't be larger than 100 megabytes. Ouch!
 
-![The Docker image is too large](/uploads/docker-image-too-large-1.png)
+![The Docker image is too large](/images/docker-image-too-large-1.png)
 
 Luckily, *now.sh* does some "compression" (the *Assembling image* step) on their end, meaning that the Docker image they're looking at is actually a bit smaller, than the "raw" image produced when building from the `Dockerfile` locally. They report the image to be 116.7 megabytes, while it's 258 megabytes on my disk.
 

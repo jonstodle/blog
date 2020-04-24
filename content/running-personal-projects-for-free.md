@@ -1,10 +1,9 @@
----
-title: Running Personal Projects for Free
-tags:
-  - Cloud
-  - Tip
-date: 2020-01-31T16:07:14.849Z
----
++++
+title = "Running Personal Projects for Free"
+date = 2020-01-31T16:07:14.849Z
+[taxonomies]
+tags = ["Cloud", "Tip"]
++++
 I have some personal projects, which consists of some simple web apps and some data they need to store, and I've always wanted to run them as cheap as possible. My current solution has them running at no cost at all.
 
 ## Requirements

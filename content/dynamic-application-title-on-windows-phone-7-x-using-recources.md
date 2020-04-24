@@ -1,8 +1,8 @@
 +++
-date = "2012-08-23T10:00:00.0000000+00:00"
-tags = ["Windows Phone"]
 title = "Dynamic application title on Windows Phone 7.x using recources"
-
+date = 2012-08-23T10:00:00.0000000+00:00
+[taxonomies]
+tags = ["Windows Phone"]
 +++
 I was developing a stupidly simple application for personal use and came up with a humorous idea. I wanted the application title on top of the app pages to also show the version. However I didn’t want to add code to every code-behind file to make it so. I came up with the idea of adding the string, used as the application title, to the application resources. Then I used a simple binding to make it all happen.
 

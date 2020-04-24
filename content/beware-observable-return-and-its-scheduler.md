@@ -1,7 +1,8 @@
 +++
-date = "2017-03-30T10:00:00.0000000+00:00"
-tags = ["Reactive Extensions"]
 title = "Beware Observable.Return() and it’s scheduler"
+date = 2017-03-30T10:00:00.0000000+00:00
+[taxonomies]
+tags = ["Reactive Extensions"]
 +++
 I love [Reactive Extensions](http://reactivex.io/). It makes async so much easier and it makes handling continuous flows of data or event easy to handle.
 

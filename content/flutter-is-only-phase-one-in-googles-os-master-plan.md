@@ -1,7 +1,8 @@
 +++
-date = "2018-04-01T10:00:00.0000000+00:00"
-tags = ["Commentary","Google","Flutter","Fuchsia"]
 title = "Flutter is only phase one in Google's OS master plan"
+date = 2018-04-01T10:00:00.0000000+00:00
+[taxonomies]
+tags = ["Commentary","Google","Flutter","Fuchsia"]
 +++
 I've been playing around with Google's new cross platform effort lately, and it looks to be coming along quite nicely. I have also been thinking a lot about what Flutter's future might be.
 

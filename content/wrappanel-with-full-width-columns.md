@@ -1,8 +1,8 @@
 +++
-date = "2015-10-28T11:00:00.0000000+00:00"
-tags = ["WPF", "UWP"]
 title = "WrapPanel with full width columns"
-
+date = 2015-10-28T11:00:00.0000000+00:00
+[taxonomies]
+tags = ["WPF", "UWP"]
 +++
 I wanted to have a grid of elements where the elements spanned the whole available width. Basically I wanted the same result you get when you set the `ColumnDefinitions` of a Grid to have equal width:
 
@@ -20,7 +20,7 @@ However, I needed it to be more dynamic than a `Grid`. I wanted to be able to se
 
 To get this working I made a custom panel which takes a number of columns and then arranges all the children within the available width, stretching them equally.
 
-![uniform-width.gif](/uploads/uniform-width.gif)
+![uniform-width.gif](/images/uniform-width.gif)
 
 I made a new panel which inherits from the `Panel` class. I called it `UniformGridWrapPanel`. I made a `DependencyProperty` called `MaximumColumns`, which is an int that keeps track of the desired amount of columns. I then overrode the `MeasureOverride`:
 
@@ -95,7 +95,7 @@ I do much the same here as in the `MeasureOverride`. Here I use the row child co
 
 In UWP apps you can use an `AdaptiveTrigger` to set the column count on the panel based on how much room you’ve got.
 
-![uniform-width-adaptive.gif](/uploads/uniform-width-adaptive.gif)
+![uniform-width-adaptive.gif](/images/uniform-width-adaptive.gif)
 
 The whole class can be found on [GitHub](https://gist.github.com/jonstodle/ff4621c4e78ecebe1466).
 

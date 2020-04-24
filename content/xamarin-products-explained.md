@@ -1,7 +1,8 @@
 +++
-date = "2017-05-19T10:00:00.0000000+00:00"
-tags = ["Xamarin","Xamarin Forms"]
 title = "Xamarin products explained"
+date = 2017-05-19T10:00:00.0000000+00:00
+[taxonomies]
+tags = ["Xamarin","Xamarin Forms"]
 +++
 I see questions about the different Xamarin solutions pop up from time to time, and I thought I’d write down my explanation here and link to this when people ask.
 

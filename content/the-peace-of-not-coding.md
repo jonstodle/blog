@@ -1,7 +1,8 @@
 +++
-date = "2017-02-17T11:00:00.0000000+00:00"
-tags = ["Commentary"]
 title = "The peace of not coding"
+date = 2017-02-17T11:00:00.0000000+00:00
+[taxonomies]
+tags = ["Commentary"]
 +++
 For the last few years, I’ve had this notion that I need to work on some side project in my spare time. I need to be working on something. Write some code. Every spare minute I have.
 

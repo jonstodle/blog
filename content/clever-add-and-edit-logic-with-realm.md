@@ -1,7 +1,8 @@
 +++
-date = "2017-05-09T10:00:00.0000000+00:00"
-tags = ["Realm"]
 title = "Clever add and edit logic with Realm"
+date = 2017-05-09T10:00:00.0000000+00:00
+[taxonomies]
+tags = ["Realm"]
 +++
 I fell in love with [Realm](https://realm.io/) about half a year back. It’s an alternative to SQLite based databases. It’s easy to use, fast to set up, fast and cross platform. Unlike SQLite it’s not a relational database, but rather an object database. You store your plain old objects “directly” in the database instead of going through an [ORM](https://en.wikipedia.org/wiki/Object-relational_mapping) layer or some sort of serialization.
 

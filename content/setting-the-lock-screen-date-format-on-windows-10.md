@@ -1,7 +1,8 @@
 +++
-date = "2017-01-06T11:00:00.0000000+00:00"
-tags = ["Windows 10 Mobile","Tip"]
 title = "Setting the lock screen date format on Windows 10"
+date = 2017-01-06T11:00:00.0000000+00:00
+[taxonomies]
+tags = ["Windows 10 Mobile","Tip"]
 +++
 I’ve always been bugged by the fact that the date format on the Windows 10 lock screen didn’t match with my region’s date format. As a Norwegian I prefer the sensible date format used in Norway (and most of Europe), but also to use American English as the display language.
 
@@ -24,4 +25,4 @@ This will copy your current preferences to be used as the default for the lock s
 
 I’ve even made a nice GIF if that’s your sort of thing:
 
-![regionalsettings.gif](/uploads/regionalsettings.gif)
+![regionalsettings.gif](/images/regionalsettings.gif)

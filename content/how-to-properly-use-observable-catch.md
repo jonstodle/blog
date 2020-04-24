@@ -1,7 +1,8 @@
 +++
-date = "2017-04-19T10:00:00.0000000+00:00"
-tags = ["Reactive Extensions"]
 title = "How to properly use Observable.Catch()"
+date = 2017-04-19T10:00:00.0000000+00:00
+[taxonomies]
+tags = ["Reactive Extensions"]
 +++
 When being new to [Reactive Extensions](http://reactivex.io/) there’s a lot to take in and a lot of things are confusing. After a while, you start getting into the flow and things are going better. But then, all of a sudden, you get snagged when trying to use [Observable.Catch()](http://reactivex.io/).
 

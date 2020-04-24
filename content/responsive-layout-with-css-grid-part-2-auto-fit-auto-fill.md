@@ -1,7 +1,8 @@
 +++
-date = "2017-12-15T11:00:00.0000000+00:00"
-tags = ["CSS"]
 title = "Responsive layout with CSS grid, part 2: auto-fill & auto-fit"
+date = 2017-12-15T11:00:00.0000000+00:00
+[taxonomies]
+tags = ["CSS"]
 +++
 In the [previous part](https://blog.jonstodle.com/intro-to-css-grid-part-1-grid-areas) we made a responsive layout using *grid areas*. With grid areas, it's possible to arrange parts of the layout in a grid and rearrange quite easily with media queries.
 
@@ -34,7 +35,7 @@ We start off with some simple HTML and CSS:
 }
 ```
 
-![Default layout](/uploads/Screenshot-171110-130145.png)
+![Default layout](/images/Screenshot-171110-130145.png)
 
 Next we're going to use the `repeat()` CSS function. `repeat()` let's you define a lot of columns or rows (using `grid-template-columns` and `grid-template-rows`) in succinct way. The first parameter is the number of times to repeat and the second parameter is what to repeat:
 
@@ -42,7 +43,7 @@ Next we're going to use the `repeat()` CSS function. `repeat()` let's you define
 grid-template-columns: repeat(4, 100px); // Repeat 100px four times
 ```
 
-![Static grid with 4 columns](/uploads/css-grid-repeat-4-2.gif)
+![Static grid with 4 columns](/images/css-grid-repeat-4-2.gif)
 
 `auto-fill` and `auto-fit` lets you create more dynamic layouts:
 
@@ -56,7 +57,7 @@ Instead of repeating a width multiple to create a set number of columns, we can 
 grid-template-columns: repeat(auto-fill, 100px);
 ```
 
-![Responsive grid with automatic column count](/uploads/css-grid-repeat-auto-fill-2.gif)
+![Responsive grid with automatic column count](/images/css-grid-repeat-auto-fill-2.gif)
 
 As you can see, each row is filled with as many columns are possible given the specified width (100px). When there's no space left on the row, it will start putting elements on the next row.
 
@@ -68,7 +69,7 @@ As you can see, each row is filled with as many columns are possible given the s
 grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
 ```
 
-![Responsive grid with automatic column count and dynamic column widths](/uploads/css-grid-repeat-auto-fill-minmax-1.gif)
+![Responsive grid with automatic column count and dynamic column widths](/images/css-grid-repeat-auto-fill-minmax-1.gif)
 
 The browser will now fit as many columns with a minimum width of 100px as it can. If there are any space left over on the row, that space is divided equally among all the columns.
 
@@ -79,7 +80,7 @@ Let's swap out `auto-fill` with `auto-fit` in the first `auto-fill` example:
 grid-template-columns: repeat(auto-fit, 100px);
 ```
 
-![Responsive grid with automatic column count again](/uploads/css-grid-repeat-auto-fit-1.gif)
+![Responsive grid with automatic column count again](/images/css-grid-repeat-auto-fit-1.gif)
 
 Not much difference here compared to `auto-fill`. The difference becomes apparent when you instruct the browser how to handle the left over space in the row.
 
@@ -91,7 +92,7 @@ Let's add a `minmax()` again:
 grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 ```
 
-![Responsive grid with automatic column count and dynamic column widths that expand the whole row](/uploads/css-grid-repeat-auto-fit-minmax.gif)
+![Responsive grid with automatic column count and dynamic column widths that expand the whole row](/images/css-grid-repeat-auto-fit-minmax.gif)
 
 `auto-fit` will behave mostly like `auto-fill`, but if there's only one row and there's space for more columns, but no elements to put in those columns, it will make the width of the empty columns `0`. Makin the max width of the columns 1fr, will make the browser divide the left over space equally between them.
 
