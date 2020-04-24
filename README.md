@@ -1,7 +1,3 @@
 # Code & Sundry
 
-## TODO
-
-[] Convert front matter to TOML
-[] Change all image references to new path
-[x] Set up `index.xml` RSS feed
+The repository feeding my blog at [blog.jonstodle.com](https://blog.jonstodle.com)
