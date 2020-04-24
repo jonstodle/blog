@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>{{ config.title }}</title>
+        <link>{{ config.base_url }}</link>
+        <description>{{ config.description }}</description>
+        <generator>Zola</generator>
+        <language>en</language>
+        <atom:link href="{{ feed_url }}" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>{{ last_build_date }}</lastBuildDate>
+        {% for page in pages %}
+        <item>
+            <title>{{ page.title }}</title>
+            <pubDate>{{ page.date | date(format="%a, %d %b %Y %T %z", timezone="Europe/Oslo") }}</pubDate>
+            <link>{{ page.permalink }}</link>
+            <guid>{{ page.permalink }}</guid>
+            {% for tag in page.taxonomies["tags"] %}
+            <category>{{ tag }}</category>
+            {% endfor %}
+            <description>{{ page.content }}</description>
+        </item>
+        {% endfor %}
+    </channel>
+</rss>

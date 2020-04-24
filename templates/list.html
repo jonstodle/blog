@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section>
+    <ul id="posts-listing">
+        {% for page in section.pages %}
+        <li>
+            <div class="row" id="posts">
+                <div class="date-time">
+                    <time>{{ page.date | date(format="%d %b %Y", timezone="Europe/Oslo") }}</time>
+                </div>
+                <div class="title">
+                    <a href="{{ page.permalink }}">{{ page.title }}</a>
+                </div>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+</section>
+{% endblock content %}

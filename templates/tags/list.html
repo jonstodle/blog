@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section>
+    <ul id="posts-listing">
+        {% for term in terms %}
+        <li>
+            <div class="row" id="posts">
+                <div class="title">
+                    <a href="{{ term.permalink }}">{{ term.name }}</a>
+                </div>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+</section>
+{% endblock content %}

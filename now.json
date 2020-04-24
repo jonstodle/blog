@@ -1,7 +1,9 @@
 {
-    "build": {
-        "env": {
-            "HUGO_VERSION": "0.42"
-        }
+  "redirect": [
+    {
+      "source": "/index.xml",
+      "destination": "/rss.xml",
+      "statusCode": 301
     }
+  ]
 }
