@@ -30,7 +30,9 @@ split comma-seperated commas
 The problems it solves are quite different - one is to get the fields of a line of csv vales, while the other gets a list of tags separated by commas. While they look the same now, they might not in the future. By tying the two problems together with a shared function, you're effectively saying that the two problems will always have identical solutions and that's plainly not true.
 
 // changes
+You might think to yourself this is not a problem, you'll just split it into two different functions once they need to be different. I'd argue that a dangerous assumption. Never trust that you're going to remember details like that 2 years later. That's even assuming that you are the one making the change.
 
 // split when it changes, but you forget
 
 // make code show intention
+I always argue that your code should show your intent. If there are multiple solutions to a problem, make sure the solution you chose clearly shows your intent, what you expect and want the code to do. Instead of keeping a single function for doing two different tasks, create two individual functions, each with its own name clearly describing the Internet of the function - what it's supposed to do - and you'll have an easier time with your code.
