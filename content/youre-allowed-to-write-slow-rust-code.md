@@ -1,6 +1,6 @@
 +++
 title = "You're Allowed To Write Slow Rust Code"
-date = 2020-09-30T20:31:19Z
+date = 2020-10-01T06:31:19Z
 [taxonomies]
 tags = ["rust", "commentary"]
 +++
