@@ -1,6 +1,6 @@
 +++
 title = "An Analogy for Multi Tasking"
-date = 2020-09-15T13:44:02Z
+date = 2020-09-30T13:44:02Z
 [taxonomies]
 tags = ["tips", "commentary"]
 +++
