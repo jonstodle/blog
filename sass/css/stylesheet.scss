@@ -7,6 +7,15 @@ body {
   line-height: 1.5;
 }
 
+footer {
+  margin-top: 2rem;
+
+  a {
+    color: black;
+    font-family: 'Ubuntu Mono', monospace;
+  }
+}
+
 a {
   text-decoration: none;
 }
