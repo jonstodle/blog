@@ -111,8 +111,12 @@ h6 {
   font-size: 0.8rem;
 }
 
-img {
+img, video {
   max-width: 100%;
+}
+
+video {
+  width: 100%;
 }
 
 pre {
