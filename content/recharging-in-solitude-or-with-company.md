@@ -25,10 +25,10 @@ The funny thing is, when you're in one camp, it's hard to imagine how the people
 
 # Getting the people back to the office
 
-Now imagine which of the two groups of people from above wants to go back into the office. One of the groups dreads having to socialize at work while trying to do their job, while the other group dreads having to spend all their working hours by themselves.
+You can easily guess which of the two groups want to go back into the office. One of the groups dreads having to socialize at work while trying to do their job, while the other group dreads having to spend all their working hours by themselves.
 
 Going back into the office isn't for everyone, and I think that needs to be acknowledged by employers. Some people are craving getting back to a more social workplace, while others will be yearning for the "office" at home, once their back at work.
 
 My point is: The group of people that recharge in company have had their go for the past ~100 years, maybe it's time to recognize that some people are happier when they're able to work in solitude.
 
-To all those of you who are yearning to get back to the office, going crazy while working from home. This is the same feelings the other group of people have when at the office, yearning to work from home.
+All of you who are yearning to get back to the office, going crazy while working from home, give the other group of people the oppertunity to work from home.
