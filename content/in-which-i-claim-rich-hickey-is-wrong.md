@@ -5,7 +5,7 @@ date = 2020-11-30T22:45:00Z
 tags = ["clojure", "types", "haskell", "rust", "f#", "commentary"]
 +++
 
-I recently watched a talk named *[Maybe Not]([https://youtu.be/YR5WdGrpoug](https://youtu.be/YR5WdGrpoug?t=464))* by Rich HIckey, the creator of Clojure. I can't claim to be on his level when it comes to language design, but I will postulate that his arguments at the [7:45 minute mark]([https://youtu.be/YR5WdGrpoug?t=464](https://youtu.be/YR5WdGrpoug?t=464)) and about 2.5 minutes of watching, is wrong.
+I recently watched a talk named *[Maybe Not](https://youtu.be/YR5WdGrpoug)* by Rich HIckey, the creator of Clojure. I can't claim to be on his level when it comes to language design, but I will postulate that his arguments at the [7:45 minute mark](https://youtu.be/YR5WdGrpoug?t=464) and about 2.5 minutes of watching, is wrong.
 
 The subject he's covering is explicit "null" checks in languages that have an explicit type representing a missing value.
 
@@ -33,7 +33,7 @@ fn return_something() -> string {}
 
 Callers of this function might do a superfluous check for a value, but their code would still work.
 
-[Watch the 2.5 minutes for a better explanation]([https://youtu.be/YR5WdGrpoug?t=464](https://youtu.be/YR5WdGrpoug?t=464)).
+[Watch the 2.5 minutes for a better explanation](https://youtu.be/YR5WdGrpoug?t=464).
 
 # But You Are Breaking Callers
 
