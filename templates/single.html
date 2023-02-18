@@ -1,5 +1,11 @@
 {% extends "base.html" %}
 
+{% block head %}
+<title>{{ page.title }} - {{ config.title }}</title>
+<meta name="description" content="{{ page.content | split(pat="\n") | first | striptags }}">
+<meta property="og:image" content="/images/code-and-sundry.png">
+{% endblock %}
+
 {% block content %}
 <div id="blog-post">
     <h1>{{ page.title }}</h1>

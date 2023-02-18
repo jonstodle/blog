@@ -1,7 +1,7 @@
 # The URL the site will be built for
 base_url = "https://blog.jonstodle.com"
 title = "Code & Sundry"
-description = "Code, thoughts and other things"
+description = "Posts about code, technology and sundry subjects by Jon G Stødle"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
