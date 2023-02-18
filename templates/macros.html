@@ -1,0 +1,9 @@
+{% macro title(text) %}
+<title>{{ text }}</title>
+<meta property="og:title" content="{{ text }}">
+{% endmacro input %}
+
+{% macro description(text) %}
+<meta name="description" content="{{ text }}">
+<meta property="og:description" content="{{ text }}">
+{% endmacro input %}

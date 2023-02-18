@@ -1,3 +1,4 @@
+{% import "macros.html" as macros %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,10 +6,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
-    {% block head %}
-    <title>{{ config.title }}</title>
-    <meta name="description" content="{{ config.description }}">
-    {% endblock %}
+    {%- block head -%}
+    {{ macros::title(text=config.title) }}
+    {{ macros::description(text=config.description) }}
+    {%- endblock -%}
+
+    <meta property="og:url" content="{{ current_url }}">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="/images/code-and-sundry.png">
 
     <link rel="alternate" type="application/rss+xml" title="Code & Sundry" href="{{ get_url(path="rss.xml", trailing_slash=false) }}">
     <link rel="stylesheet" href="/css/stylesheet.css">
