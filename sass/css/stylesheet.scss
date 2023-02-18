@@ -1,5 +1,37 @@
+/* Fonts */
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  src: url("/fonts/Atkinson-Hyperlegible-Regular-102.ttf");
+}
+
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  src: url("/fonts/Atkinson-Hyperlegible-Bold-102.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  src: url("/fonts/Atkinson-Hyperlegible-Italic-102.ttf");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  src: url("/fonts/Atkinson-Hyperlegible-BoldItalic-102.ttf");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("/fonts/JetBrainsMonoNL-Regular.ttf");
+  font-style: italic;
+}
+
+
 body {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Atkinson Hyperlegible", sans-serif;
   margin: auto;
   max-width: 50em;
   font-size: 1rem;
@@ -139,7 +171,7 @@ pre code {
 }
 
 code {
-  font-family: 'Ubuntu Mono', monospace;
+  font-family: "JetBrains Mono", monospace;
   white-space: pre;
   overflow-x: auto;
   font-size: 87.5%;
