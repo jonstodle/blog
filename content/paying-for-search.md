@@ -5,7 +5,7 @@ date = 2023-02-17T00:00:00+01:00
 tags = ["commentary"]
 +++
 
-I've been DuckDuckGo for years, and I've been happy with the search results. However, I recently tried to search for places that sold the Sami flag, but DuckDuckGo was stumped. Google however found 2 places immediately. This coincided with a discussion at work about search engines and which ones people were using. Long story short, after some browsing I landed on trying out [Kagi](https://kagi.com).
+I've been using DuckDuckGo for years, and I've been happy with the search results. However, I recently tried to search for places that sold the Sami flag, but DuckDuckGo was stumped. Google however found 2 places immediately. This coincided with a discussion at work about search engines and which ones people were using. Long story short, after some browsing I landed on trying out [Kagi](https://kagi.com).
 
 Kagi has a free trial of 50 searches per month, for more than that you'll have to pay for a subscription. After trying 50 searches - including a search for places that sell the Sami flag - I was satisfied with the results it gave me. I took the leap and paid for a monthly subscription.
 
