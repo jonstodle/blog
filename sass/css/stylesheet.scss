@@ -117,10 +117,12 @@ h6 {
 
 img, video {
   max-width: 100%;
+  width: 100%;
 }
 
-video {
-  width: 100%;
+img {
+  object-fit: contain;
+  aspect-ratio: 1;
 }
 
 pre {
