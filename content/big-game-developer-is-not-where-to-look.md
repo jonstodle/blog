@@ -5,7 +5,7 @@ date = 2023-09-12
 tags = ["commentary", "video games"]
 +++
 
-I see people complaining about video games not boing what they used to be: They were finished at launc, they tried new things, they weren't full of micro transactions and/or game passes. The thing is though, those games still exist! They're just not made by the large game development studios.
+I see people complaining about video games not boing what they used to be: They were finished at launch, they tried new things, they weren't full of micro transactions and/or game passes. The thing is though, those games still exist! They're just not made by the large game development studios.
 
 If you want to play a good Battlefield, play [Battlebit Remastered](https://store.steampowered.com/app/671860/BattleBit_Remastered/). It's not only better at giving you the same big battle feeling, it's a quarter of the price!
 
