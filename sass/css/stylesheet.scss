@@ -171,8 +171,9 @@ img {
 pre {
   overflow-x: auto;
   padding: .5rem;
-  border: 1px solid lighten(#111, 90);
   background-color: #efefef;
+  filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.2)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.5));
+  border-radius: 10px;
 }
 
 pre code {
